@@ -1,0 +1,88 @@
+.name_color{
+   color: #ff0000;
+   font-size: 30px;
+   
+}
+
+.half_width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+  
+}
+.half_width img{
+    width: 80%;
+}
+.forbg{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link_button{
+    text-decoration: none;
+   background-color: #ff0000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
+.text_center{
+    color: rgb(25, 0, 255);
+    margin-top: 100px;
+}
+.forbg2{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.say{
+    text-align: center;
+}
+.say1{
+    color: gray;
+}
+.email{
+    text-align: center;
+    background-color: #ff0000;
+    padding: 10px 20px;
+}
+.link_button2{
+    text-align: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-color: #ff0000;
+     padding: 10px 20px;
+     border-radius: 10px;
+     font-weight: 700;
+     color: white;
+}
+.center1{
+    background-color: #ff0000;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    padding-left: 5%;
+
+}
